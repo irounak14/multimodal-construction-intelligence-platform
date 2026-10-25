@@ -1,0 +1,11 @@
+BUILDSENSE STREAMLIT SETUP
+
+1. Copy streamlit_app.py and requirements.txt into your repository ROOT: the same folder that contains backend and frontend.
+2. In VS Code terminal (root folder), run:
+   python -m pip install -r requirements.txt
+   python -m streamlit run streamlit_app.py
+3. For Streamlit Community Cloud, push these two files to GitHub, create a new app, choose your repository/branch, and set Main file path to streamlit_app.py.
+4. Add GEMINI_API_KEY in Streamlit app Secrets if you want Gemini AI. Never commit the key to GitHub.
+5. Without a key, built-in demo responses work; demo mode does not analyze image pixels.
+
+The existing backend and frontend folders are not deleted or changed.
